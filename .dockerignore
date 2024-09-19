@@ -1,0 +1,38 @@
+# Ignore Maven and Gradle build directories
+target/
+build/
+
+# Ignore temporary files and directories
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.class
+# Ignore IDE-specific files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.launch
+*.classpath
+*.project
+.settings/
+
+# Ignore OS-specific files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore Docker files
+.dockerignore
+Dockerfile
+
+# Ignore node_modules if you have a frontend in the same project
+node_modules/
